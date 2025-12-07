@@ -163,10 +163,13 @@
                                             <div class="info-content">
                                                 <small class="text-muted">Link SRB</small>
                                                 <div>
-                                                    <a href="{{ $data->link_srb }}" target="_blank" class="btn btn-sm btn-outline-primary">
+                                                    <a href="{{ asset('storage/srb/' . $data->link_srb) }}" 
+                                                    target="_blank" 
+                                                    class="btn btn-sm btn-outline-primary">
                                                         <i class="fas fa-eye me-1"></i> Lihat SRB
                                                     </a>
                                                 </div>
+
                                             </div>
                                         </div>
                                     </div>
